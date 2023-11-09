@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 800px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+.smile {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #eaff00;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.eye {
+    display: flex;
+}
+
+.eyes {
+    width: 75px;
+    margin-left: 125px;
+    margin-top: 75px;
+    height: 125px;
+    background-color: #000;
+    z-index: 6;
+    border-radius: 50%;
+}
+
+.mouth {
+    height: 200px;
+    width: 300px;
+    background-color: #000;
+    z-index: 3;
+    margin-left: 112px;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle{
+    background-color: #eaff00;
+    height: 220px;
+    width: 300px;
+    margin-top: -50px;
+    z-index: 5;
+    margin-left: 112px;
+    position: absolute;
+    border-radius: 50%;
+}
+.mth{
+    margin-top: 50x;
+}
